@@ -1,0 +1,15 @@
+form li
+{
+	list-style:none;
+	margin:10px;
+	padding-bottom:10px;
+}
+label
+{
+	display:block;
+	cursor:pointer;
+}
+form ul
+{
+	padding-left:0px;
+}
