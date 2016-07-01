@@ -15,6 +15,7 @@ p{
 	float:left;
 }
 .headr{
+	background:white;
 	position: fixed;;
 	line-height: 40px;
 }
@@ -49,7 +50,7 @@ a{
 .hero2{
 
 	width:50%;
-	height: 800px;
+	height: 400px;
 	float:right;
 
 }
@@ -57,21 +58,22 @@ a{
 	position: relative;
 	padding-left: 10px;
 
-	top:350px;
+	top:150px;
 }
 .hero1{
 
-	height: 800px;
+	height: 400px;
 	width:50%;
 	float:left;
 }
 .threecol
 {
-	padding:10px;
-	background: #696969;
+	padding:0px;
+	background: red;
 }
 .threecol1
 {	height: 200px;
+	margin-left: 0px;
 	background:DarkSlateGray;
 }
 .threecol2 p{
@@ -92,11 +94,14 @@ a{
 }
 .threecol2
 {
+	margin-left: 20px;
 	height: 200px;
 	background:DarkSlateGray;
 }
 .threecol3
 {
+	margin-right: 0px;
+	margin-left: 20px;
 	height: 200px;
 	background:DarkSlateGray;
 }
