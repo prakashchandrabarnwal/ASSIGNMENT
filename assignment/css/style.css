@@ -22,6 +22,7 @@ li{
 	display:inline;
 }
 a{
+	color:#000000;
 	text-decoration: none;
 }
 
@@ -56,10 +57,9 @@ a{
 	position: relative;
 	padding-left: 10px;
 
-	top:300px;
+	top:350px;
 }
 .hero1{
-	background: url(../img/5.jpg);
 
 	height: 800px;
 	width:50%;
@@ -160,3 +160,12 @@ padding-top: 3px;
 .ftr2 li{
 	margin-right: 20px;
 	}
+video{
+	margin-left: 10px;
+}
+#p3{
+	font-family: cursive;
+	text-transform:uppercase;
+	margin-left: 250px;
+	text-shadow: 2px 1px 1px black;
+}
