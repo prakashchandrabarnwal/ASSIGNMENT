@@ -1,7 +1,18 @@
 body{
 	background: #e3e3e3;
 	font-family: sans-serif;
-
+	background-image:url(../img/x.jpg);
+	background-attachment: fixed;
+}
+.main{
+	
+	margin-top:-65px;
+}
+#top{
+	position:fixed;
+	background:brown;
+	height:65px;
+	
 }
 header{
 	background: brown;
@@ -67,7 +78,7 @@ header nav li{
 .ftr{
 	margin:10px 5px;
 	height:40px;
-	background: #2F4F4F;
+	background:#3A5F0B;
 }
 section {
 	text-align: center;
@@ -127,4 +138,7 @@ header a,footer a,img:hover {
   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
   box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+MARQUEE{
+margin:13px 10px;
 }
