@@ -1,16 +1,15 @@
 body{
 	background: #e3e3e3;
 	font-family: sans-serif;
-	
+
 }
 header{
 	background: brown;
 	position: fixed;
+	height:65px;
+}
 
-}
-header nav{
-	margin-top: 0px;
-}
+
 a{
 	color :black;
 }
@@ -24,12 +23,12 @@ header nav li{
 	position: relative;
 	top:25px;
 	left:50px;
-	
+
 }
 .subheader{
 	height: 60px;
 	margin-top: 70px;
-	background: #e3e3e3;
+	background: white;
 	margin-bottom: 10px;
 }
 .subheader li{
@@ -68,7 +67,7 @@ header nav li{
 .ftr{
 	margin:10px 5px;
 	height:40px;
-	background: #e3e3e3;
+	background: #2F4F4F;
 }
 section {
 	text-align: center;
@@ -81,10 +80,14 @@ img{
 }
 footer{
 	padding-top: 20px;
+	background: red;
+	height:50px;
+
 }
 footer li{
 	margin-right: 5px;
 	display:inline;
+
 }
 img{
 	opacity: .5;
@@ -92,4 +95,36 @@ img{
 img:hover{
 	opacity:1;
 	transition: opacity .5s ease-in-out;
+}
+a{
+	text-decoration: none;
+}
+footer p{
+	font-family: 'Indie Flower', cursive;
+}
+img {
+
+ opacity: 0.8;
+
+
+ /*Transition*/
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+
+ /*Reflection*/
+ -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+
+
+header a,footer a,img:hover {
+   opacity: 1;
+
+   /*Reflection*/
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
 }
