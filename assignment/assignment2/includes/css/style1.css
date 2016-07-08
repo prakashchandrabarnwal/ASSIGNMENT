@@ -1,0 +1,70 @@
+#search{
+	width:60px;
+}
+#login{
+	margin-right: 30px;
+}
+#subheader{
+	margin-top: 60px;
+	text-align: center;
+
+}
+body{font-family: sans-serif;
+	background:#eee;
+}
+.breadcrumb{
+	margin-top: 12px;
+	
+	margin-left:0;
+}
+
+#main{
+	text-align: center;
+	
+	background:#696969;
+	
+}
+
+.panel{
+	width:100%;
+	padding: 0px;
+}
+#features img{
+   margin:0 0 20px;
+}
+.panel{
+   text-align: center;
+}
+img{
+	position: relative;
+}
+.price {
+	font-size: 15px;
+	position: absolute;
+	top: -1px;
+	right: 0px;
+	padding: 0px;
+}
+
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+ul.unstyled li{
+	display: inline;
+	margin: 3px;
+}
+footer{
+	clear:both;
+	    background: #333;
+    color: #eee;
+    font-size: 11px;
+       border: 4px solid grey;
+}@media (max-width: 768px) {
+#search{
+	width:200px;
+	}
+	#login li a{
+		display:inline;
+}
+}

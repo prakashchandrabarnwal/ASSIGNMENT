@@ -1,0 +1,200 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Prakash Barnwal
+Updated: July 2016
+Notes:	 Assignment2
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+body {
+	
+   -webkit-font-smoothing: antialiased;
+  font-family: sans-serif; text-rendering: optimizelegibility;
+}
+/* --------------------------------------Navbar*/
+#searchinput{
+   width:70px;
+}
+.navbar-brand
+{
+   padding: 12px;
+}
+
+  /* -------------------------------------- */
+
+
+
+   
+   
+   
+/* --------------------------------------Carousel */
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+}
+
+
+.item{
+	background:#333;
+}
+  /* -------------------------------------- */
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+.threerow {
+   font-size: 1px;
+}
+   .price {
+      font-size: 14px;
+   }
+   
+   .price sup {
+      font-size: 10px;
+   }
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+.threerow a{
+   padding-top: 39px;
+   font-size: 19px;
+}
+.price {
+      font-size: 10px;
+   }
+   
+   .price sup {
+      font-size: 10px;
+   }	
+      
+   
+   #myCarousel .item { height: 310px; }
+   
+   #slide1 {
+      background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+   }
+   
+   #slide2 {
+      background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+   }
+   
+   #slide3 {
+      background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+   }
+   
+   .carousel-caption {
+      font-size: 16px;
+   }
+   
+   .carousel-caption h4 {
+      font-size: 22px;
+   }
+   
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+
+
+   #myCarousel .item { height: 500px; }
+   
+   #slide1 {
+      background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+   }
+   
+   #slide2 {
+      background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+   }
+   
+   #slide3 {
+      background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+   }
+
+}
+
+
+
+.threerow {
+   text-align: center;
+   
+   height: 90px;
+}
+.threerow a{
+
+   height:98%;
+   margin-bottom: 2px;
+}
+@media (max-width: 480px) {
+.threerow a{
+   padding-top: 35px;
+   font-size: 14px;
+}
+}
+.tab-pane img{
+   margin-right: 10px;
+}
+textarea{
+   margin-bottom: 5px;
+}
+
+footer{
+   background: #333;
+   color: #eee;
+   font-size: 15px;
+   padding: 20px;
+}
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+#myCarousel{
+   margin-bottom: 10px;
+   margin-top: 60px;
+}
+
+.twocol{
+   background: #eee;
+}
+ul.unstyled li{
+   display: inline;
+   margin: 3px;
+}
