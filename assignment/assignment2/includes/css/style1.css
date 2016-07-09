@@ -1,3 +1,6 @@
+*{
+box-sizing:border-box;
+}
 #search{
 	width:60px;
 }
