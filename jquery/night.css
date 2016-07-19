@@ -1,0 +1,12 @@
+body{
+	width:600px;
+margin:auto;
+text-align: center;
+}
+dt{
+	font-size: 40px;
+	padding:30px;
+	
+	
+	background:grey;
+}

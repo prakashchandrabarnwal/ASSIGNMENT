@@ -1,0 +1,32 @@
+.subheader{
+	margin-top:50px;
+	text-align:center;
+}
+.search{
+	
+	background:brown;
+	margin:auto;
+	margin-top:-20;
+	height:800px;
+	text-align:center;
+}
+.disp{
+	margin:auto;
+	background:#e3e3e3;
+	height:800px;
+	text-align:center;
+}
+.submit{
+	margin-top:3px;
+}
+h3,h4{
+	padding-top:20px;
+	display:block;
+}
+p{
+	font-size:12px;
+}
+.headings{
+	padding-bottom:40px;
+	text-align:center;
+}
