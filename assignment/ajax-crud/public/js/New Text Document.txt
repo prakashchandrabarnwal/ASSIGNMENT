@@ -1,0 +1,40 @@
+(function(){
+			$("html").addClass("js");
+			
+			var contactForm={
+
+				container:$("#contact"),
+				config:{
+
+					effect:"slideToggle"
+				},
+
+				init:function(config){
+					$.extend(this.config,config);
+					$("<button></button>",{
+						text:"contact me"
+					})
+					.insertAfter("article:first")
+					.on("click", this.show);
+				},
+				show: function(){
+					if(contactForm.container.is(":hidden")){
+					contactForm.close.call(contactForm.container);
+					contactForm.container[contactForm.config.effect](500);
+			}	},
+				close:function(){
+					var $this=$(this);
+					if($this.find("span.close").length) return;
+					$("<span class=close>X</span>")
+						.prependTo(this)
+						.on("click", function(){
+							$this[contactForm.config.effect](500);
+						})
+				}
+			};
+			contactForm.init({
+				effect:"fadeToggle",
+				speed:2000
+			});	
+
+			}());

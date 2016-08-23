@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 0,
+      "name": "Hester Orr",
+      "phone": "+1 (954) 487-3680",
+      "gender": "male",
+      "location": "220 Kingsway Place, Graball, Mississippi, 3681",
+      "age": 33
+    },
+    {
+      "id": 2,
+      "name": "Ila Ferrell",
+      "phone": "+1 (836) 501-3417",
+      "gender": "female",
+      "location": "481 Murdock Court, Gasquet, Oklahoma, 6782",
+      "age": 26
+    },
+    {
+      "id": 3,
+      "name": "Ila Ferrell",
+      "phone": "+1 (836) 501-3417",
+      "gender": "female",
+      "location": "481 Murdock Court, Gasquet, Oklahoma, 6782",
+      "age": 26
+    }
+  ]
+}

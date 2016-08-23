@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'json-server' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose node symlink /usr/bin/node
+5 verbose install initial load of /usr/lib/package.json
+6 verbose readDependencies loading dependencies from /usr/lib/package.json
+7 silly cache add args [ 'json-server', null ]
+8 verbose cache add spec json-server
+9 silly cache add parsed spec { raw: 'json-server',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'json-server',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 silly addNamed json-server@*
+11 verbose addNamed "*" is a valid semver range for json-server
+12 silly addNameRange { name: 'json-server', range: '*', hasData: false }
+13 silly mapToRegistry name json-server
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry http://172.23.238.253:4873/
+16 silly mapToRegistry uri http://172.23.238.253:4873/json-server
+17 verbose addNameRange registry:http://172.23.238.253:4873/json-server not in flight; fetching
+18 verbose request uri http://172.23.238.253:4873/json-server
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 05:01:09
+21 verbose request id f9c423f36bb07748
+22 http request GET http://172.23.238.253:4873/json-server
+23 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+24 info attempt registry request try #2 at 05:01:20
+25 http request GET http://172.23.238.253:4873/json-server
+26 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+27 info attempt registry request try #3 at 05:02:21
+28 http request GET http://172.23.238.253:4873/json-server
+29 verbose stack Error: connect ECONNREFUSED
+29 verbose stack     at exports._errnoException (util.js:746:11)
+29 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+30 verbose cwd /vagrant/jquery-2
+31 error Linux 3.13.0-65-generic
+32 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "json-server"
+33 error node v0.12.7
+34 error npm  v2.11.3
+35 error code ECONNREFUSED
+36 error errno ECONNREFUSED
+37 error syscall connect
+38 error Error: connect ECONNREFUSED
+38 error     at exports._errnoException (util.js:746:11)
+38 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1010:19)
+38 error  { [Error: connect ECONNREFUSED]
+38 error   code: 'ECONNREFUSED',
+38 error   errno: 'ECONNREFUSED',
+38 error   syscall: 'connect' }
+39 error If you are behind a proxy, please make sure that the
+39 error 'proxy' config is set properly.  See: 'npm help config'
+40 verbose exit [ 1, true ]

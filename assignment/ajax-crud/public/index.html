@@ -1,0 +1,135 @@
+<html>
+	<head>
+	    <link rel="stylesheet" href="css/mycss.css"">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<title>Omdb</title>
+		<meta name="description" content="">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!--script src="includes/js/modernizr-2.6.2.min.js"></script-->
+		
+	</head>
+	<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse1">
+
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+
+				</button>
+				<a class="navbar-brand" href="#"><h5>User Data</h5></a>
+			</div>
+
+			<div class="collapse navbar-collapse " id="collapse1">
+	
+				<ul class="nav navbar-nav navbar-right" id="login">
+				<li  data-toggle="tooltip" title="Click to insert entry" ><a href="#myModal" data-toggle="modal" class="btn w3-green">Insert new entry </a></li>
+
+
+					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Log in <span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><span class="glyphicon glyphicon-wrench"></span>  Settings</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> update</a></li>
+						<li><a href="#"> <span class="glyphicon glyphicon-eye-open"></span> Active logging</a></li>
+					</ul>
+
+					</li>
+					</ul>
+			</div>
+	</nav>
+
+					<div class="modal fade" id="myModal">
+
+						<div class="modal-dialog">
+
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Sign Up</h4>
+									</div>
+									<div class="modal-body">
+										<h4>Enter details</h4>
+										
+
+										<p><small class="text-muted">Enter name and email</small></p>
+
+
+										<form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputName">Name</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="name form-control" id="inputName" placeholder="Name" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputPhone" >Phone</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="phone form-control" id="inputphone" placeholder="Phone" type="text">
+                                                        </div>
+                                                    </div>
+													<div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputGender">Gender</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="gender form-control" id="inputGender" placeholder="Gender" type="text">
+                                                        </div>
+                                                    </div>
+													<div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputLocation">Location</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="location form-control" id="inputLocation" placeholder="Location" type="text">
+                                                        </div>
+                                                    </div>
+													<div class="form-group">
+                                                        <label class="col-lg-2" control lebel for ="inputAge">Age</label>
+                                                        <div class="col-lg-10">
+                                                            <input class="age  form-control" id="inputAge" placeholder="Age" type="text">
+                                                        </div>
+					<div>													
+     <a href="#"  class="create btn w3-green pop col-lg-offset-4 col-lg-4" data-toggle="popover" data-placement="top" data-original-title="Status" style="margin-top:20px" type="submit" data-dismiss="modal">Submit</a>
+                                       </div>            
+                
+                                                    </div>
+								           
+                                                </form>
+									</div>
+						
+						</div>
+						</div>
+				</div>
+				
+				</div><!-- end of nav-->
+			 	<div class="subheader row w3-border">
+					<form class="search" method="get">
+						<h3 class="col-lg-12">Search user details</h3>
+						<input type="text" name="fname" class="input col-lg-offset-3 col-lg-6">
+						<input type="button" value="submit" class="submit w3-round w3-btn w3-purple col-lg-2 col-lg-offset-4">
+						<input type="button" value="save" class="save w3-btn w3-lime col-lg-2 w3-round">
+						
+					</form>
+					</div>
+					<div class="parent w3-sand w3-leftbar w3-border-blue w3-animate-bottom">
+					<div class="w3-blue headingss row w3-animate-left">
+					<p class="col-lg-2 col-sm-12 col-md-2 col-xs-12 x" style="padding-left:30px">Name<p>
+					<p class="col-lg-4 col-sm-12 col-md-4 col-xs-12" style="padding-left:30px">Location<p>
+					<p class="col-lg-1 col-sm-12 col-md-1 col-xs-12 gender">Gender<p>
+					<p class="col-lg-2 col-sm-12 col-md-2 col-xs-12 phone">Phone<p>
+					<p class="col-lg-1 col-sm-12 col-md-2 col-xs-12 age">Age<p>
+					<p class="col-lg-1 col-sm-12 col-md-1 col-xs-12" style="padding-left:30px">Update<p>
+					<p class="col-lg-1 col-sm-12 col-md-1 col-xs-12" style="padding-left:30px">Delete<p>
+					</div>
+					</div>
+					<div class="row">
+					<a class="submit col-lg-offset-11 col-lg-1" id="loadmore">Load more...<a>
+					</div>
+	
+				
+				</body>
+				<script src="js/myjs.js"></script>
+				<!--<script>fn();</script>  -->
+</html>
